@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>浪漫大连</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/element-ui/lib/theme-chalk/index.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+
+    <style>
+      body {
+        margin: auto 100px;
+        background-image: url("img/background.jpg");
+        /* background-color: #ededed; */
+        color: #a5a5a5;
+      }
+      .el-main {
+        
+        background-color: #ededed;
+      }
+      .intro1 {
+        font-family: "楷体";
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <el-container>
+        <el-main>
+          <el-breadcrumb separator="/">
+            <el-breadcrumb-item :to="{ path: '/' }">首页</el-breadcrumb-item>
+          </el-breadcrumb>
+          <h1
+            style="text-align: center; margin: 100px; background-color: #ededed"
+          >
+            浪漫の大连&nbsp;<span style="font-size: small"
+              >浪漫之都，心动无限</span
+            >
+          </h1>
+
+          <el-carousel
+            :interval="4000"
+            type="card"
+            height="200px"
+            style="margin: 100px 200px"
+          >
+            <el-carousel-item v-for="(item, index) in images" :key="index">
+              <img
+                :src="item"
+                alt="Carousel Image"
+                style="width: 100%; height: 100%"
+              />
+            </el-carousel-item>
+          </el-carousel>
+
+          <p class="intro1">
+            我喜欢大连，它静静地开放，从不声张。像花朵，有着异样的芬芳...
+          </p>
+          <p class="intro1" style="margin-bottom: 100px">
+            I love DaLian, quietly open, never make a fuss .Like flowers,with a
+            strange fragrance
+          </p>
+
+          <!-- 跨海大桥 -->
+          <el-container>
+            <el-aside width="500px" style="margin-left: 30px">
+              <a href="img1.html"
+                ><img
+                  src="img/bridge-1.jpg"
+                  height="400px"
+                  width="500px"
+                  style="justify-content: center; display: flex"
+              /></a>
+            </el-aside>
+            <el-main style="margin: 0px 20px 0px">
+              <p>
+                大连跨海大桥大连跨海大桥大连跨海大桥大连跨海大桥大连跨海大桥大连跨海大桥大连跨海大桥
+                大连跨海大桥大连跨海大桥大连跨海大桥大连跨海大桥大连跨海大桥大连跨海大桥大连跨海大桥
+                大连跨海大桥大连跨海大桥大连跨海大桥大连跨海大桥大连跨海大桥大连跨海大桥大连跨海大桥
+                大连跨海大桥大连跨海大桥大连跨海大桥大连跨海大桥大连跨海大桥大连跨海大桥大连跨海大桥
+                大连跨海大桥大连跨海大桥大连跨海大桥大连跨海大桥大连跨海大桥大连跨海大桥大连跨海大桥
+                大连跨海大桥大连跨海大桥大连跨海大桥大连跨海大桥大连跨海大桥大连跨海大桥大连跨海大桥
+              </p>
+            </el-main>
+          </el-container>
+
+          <!-- 海洋 -->
+          <el-container style="margin-top: 100px">
+            <el-main> main </el-main>
+            <el-aside>
+                <el-image src="img/sea-5.jpg" width="500px"></el-image>    
+            </el-aside>
+          </el-container>
+        </el-main>
+      </el-container>
+    </div>
+
+    <script>
+      new Vue({
+        el: "#app",
+        data() {
+          return {
+            images: [
+              "img/sea-1.jpg",
+              "img/sea-2.jpg",
+              "img/sea-3.jpg",
+              "img/sea-4.jpg",
+              "img/sea-5.jpg",
+              "img/sea-6.jpg",
+              "img/bridge-1.jpg",
+              "img/bridge-2.jpg",
+              "img/bridge-3.jpg",
+            ],
+          };
+        },
+      });
+    </script>
+  </body>
+</html>
