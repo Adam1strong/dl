@@ -6,7 +6,7 @@
             <font class="ma-shan-zheng-regular">浪漫大连，心动无限</font>
         </span>
 
-        <el-menu mode="horizontal" style="width:600px;background-color: #ededed;" :default-active="'0'" ellipsis=false>
+        <el-menu mode="horizontal" style="width:1000px;background-color: #ededed;" :default-active="'0'" ellipsis=false>
 
             <!-- index.vue -->
             <el-menu-item index="0">
@@ -42,9 +42,27 @@
             <el-menu-item index="3">
                 <RouterLink to="/football">
                     <el-icon>
-                        <Soccer />
+                        <football />
                     </el-icon>
                     <span>足球</span>
+                </RouterLink>
+            </el-menu-item>
+
+            <el-menu-item index="4">
+                <RouterLink to="/food">
+                    <el-icon>
+                        <fork-spoon/>
+                    </el-icon>
+                    <span>美食</span>
+                </RouterLink>
+            </el-menu-item>
+
+            <el-menu-item index="5">
+                <RouterLink to="/romantic">
+                    <el-icon>
+                        <magic-stick/>
+                    </el-icon>
+                    <span>浪漫</span>
                 </RouterLink>
             </el-menu-item>
         </el-menu>

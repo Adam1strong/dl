@@ -1,5 +1,5 @@
 <template>
-    <h1 contenteditable="">跨海大桥</h1><!--标题-->
+    <h1 contenteditable="">浪漫之都</h1><!--标题-->
     <el-carousel :interval="4000" type="card" height="350px" style="margin: 50px 400px;">
         <el-carousel-item v-for="(item, index) in index_carousel_images" :key="index">
             <img :src="item" alt="Carousel Image" style="width: 100%; height: 100%;" />
@@ -7,22 +7,17 @@
     </el-carousel>
 
 
-    <p>星海湾跨海大桥，又称大连南部滨海大道跨海大桥，简称星海湾大桥，位于<i>中国辽宁省大连市，是中国首座海上修筑锚碇的地锚式悬索桥</i>，<br>也是中国第一座公路双层钢桁架悬索桥。大桥于2011年开始建设，2015年10月30日开通。<br>星海湾大桥全长6.8公里，其中主桥长820米，净空高度30米，中央正对星海广场中轴线。
-        <i>辽宁省大连市境内链接甘井子与西岗区的跨海大桥位于黄海水域上全长六千米，</i><br>分为上下两层，上层宽度<b>21米</b>，下层<b>17米</b>。是中国建筑的伟大奇迹。
-    </p><!--文本内容-->
+<!--文本内容--><p><i>大连被称为时尚之都的原因主要包括其自然环境、文化活动、教育资源和时尚产业的发展。</i><br>
+    首先，大连的自然环境为其成为时尚之都提供了得天独厚的条件。大连市民对美的追求与生俱来，城市的浪漫氛围和海洋性气候为居民和游客提供了优美的环境和舒适的气候条件，这些都是时尚之都的重要特征。<br>浪漫之都的称号于2006年提出，旨在提升大连的形象和影响力。大连以其独特的城市景观建设和自然文化条件，<br><i>成为了-个年轻且充满活力的城市，拥有众多独具特色的旅游景点。</i>,<br>最后，大连的地理位置和历史背景也是其成为时尚之都的重要因素。作为北方的海滨城市，大连的自然美景和浪漫氛围吸引了众多游客，<br>同时，大连的历史和文化也为时尚产业的发展提供了丰富的素材和灵感来源。
+
+</p>
 
     <el-container>
         <el-aside width="760px">
-            <img src="@/assets/images/bridge/bridge-10.jpg" width="760 " height="460">
+            <img src="@/assets/images/Romantic/Romantic-10.jpg" width="700" height="860">
         </el-aside>
         <el-main style="margin-top: 100px; margin-left: 200px;">
-            <span id="text1">
-                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;《赞跨海大桥》<br>
-                长虹飞跨海连天，浩渺烟波映眼前。<br>
-                巨柱擎天连两岸，钢绳挽索系云边。<br>
-                车驰如箭穿涛过，舟渡似梭望影迁。<br>
-                伟业千秋惊世界，雄姿伟岸立苍澜。
-            </span><br>
+            <span><img src="@/assets/images/Romantic/Romantic-9.jpg" width="700" height="860" data-aos="fade-up"> </span>
         </el-main>
     </el-container>
     <footer> <p>&copy; 2024 跨海大桥. 版权所有.</p></footer>
@@ -41,11 +36,7 @@ b{
         bottom: 0;
         width: 100%;
       }
-#text1{
-    font-size: 28px;
-    font-family: 长城行楷体;
-    text-align: right;
-}
+
 
 i {
     color: #00a4c5;
@@ -107,12 +98,12 @@ export default {
     data() {
         return {
             index_carousel_images: [
-                require("@/assets/images/bridge/bridge-1.jpg"),
-                require("@/assets/images/bridge/bridge-2.jpg"),
-                require("@/assets/images/bridge/bridge-3.jpg"),
-                require("@/assets/images/bridge/bridge-4.jpg"),
-                require("@/assets/images/bridge/bridge-5.jpg"),
-                require("@/assets/images/bridge/bridge-6.jpg"),
+                require("@/assets/images/Romantic/Romantic-1.jpg"),
+                require("@/assets/images/Romantic/Romantic-2.jpg"),
+                require("@/assets/images/Romantic/Romantic-3.jpg"),
+                require("@/assets/images/Romantic/Romantic-4.jpg"),
+                require("@/assets/images/Romantic/Romantic-5.jpg"),
+                require("@/assets/images/Romantic/Romantic-6.jpg"),
             ]
         }
     }

@@ -8,7 +8,14 @@
 
     <el-container>
         <el-main>
-            一段文字
+
+            <span>
+             <p>大连 | 山海之间的浪漫</p><br>
+            <p>大连—有山海之间的浪漫，有落日余晖，还有人间烟火的文艺气息</p>
+            <p>大连的美是复杂的，藏在山海之间，藏在起伏的丘陵，藏在展览的海湾。</p>
+            <p>白墙红瓦，蛇形公路，落日余晖，海鸥翔游........无不在诉说大连的浪漫</p>
+           </span>
+
         </el-main>
         <el-aside width="602px">
             <img src="@/assets/images/bridge/bridge-6.jpg"
@@ -24,7 +31,13 @@
             </RouterLink>
         </el-aside>
         <el-main>
-            两段文字
+          <span>
+             <p>星辰 | 大海</p><br>
+            <p>我们总是执着远方，以为远方的风景最美，</p>
+            <p>但是最美的风景在脚下。我们渴望星辰大海让蔚蓝的大海盛开出白色的花朵</p>
+            <p>这是一座建立在广场上的城市，路的尽头永远都是海，希望我们永远能喜欢眼前的风景，身边的人，现在的自己</p>
+            <p>热爱是极为稀缺的品质，唯有热爱才能享受过程的乐趣和不可思议的成长</p>
+           </span>
         </el-main>
     </el-container>
 
@@ -74,6 +87,9 @@ export default {
 </script>
 
 <style type="text/css">
+#text1{
+    color: blue;
+}
 .aa {
     text-align: center;
     margin: 50px;

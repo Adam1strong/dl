@@ -1,6 +1,9 @@
 import { createRouter, createWebHashHistory } from "vue-router";
 import IndexView from "@/views/IndexView.vue";
 import SeaView from '@/views/SeaView.vue'
+import FootballView from '@/views/FootballView.vue'
+import RomanticView from '@/views/RomanticView.vue'
+import FoodView from '@/views/FoodView.vue'
 import NotFound from "../views/404.vue";
 
 const routes = [
@@ -15,6 +18,10 @@ const routes = [
     component: SeaView,
   },
   {
+    path: "/football",
+    component: FootballView,
+  },
+  {
     path: "/bridge",
     name: "bridge",
     // route level code-splitting
@@ -23,9 +30,12 @@ const routes = [
     component: () => import("../views/BridgeView.vue"),
   },
   {
-    path: "/:pathMatch(.*)*", // 捕获所有路径
-    name: "NotFound",
-    component: NotFound,
+    path: "/food",
+    component: FoodView,
+  },
+  {
+    path: "/romantic",
+    component: RomanticView,
   }
 ];
 
