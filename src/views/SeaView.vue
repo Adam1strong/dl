@@ -51,7 +51,7 @@ b{
     font-size: 28px;
     font-family: 华为楷体;
     text-align: right;
-    color:#011A90;
+    color:#2c74c9;
 }
 
 i {

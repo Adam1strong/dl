@@ -9,7 +9,7 @@
     <el-container>
         <el-main>
 
-            <span>
+            <span id="text2">
                 <p>大连 | 山海之间的浪漫</p><br>
                 <p>大连—有山海之间的浪漫，有落日余晖，还有人间烟火的文艺气息</p>
                 <p>大连的美是复杂的，藏在山海之间，藏在起伏的丘陵，藏在展览的海湾。</p>
@@ -30,7 +30,7 @@
 
         </el-aside>
         <el-main>
-            <span>
+            <span id="text2">
                 <p>星辰 | 大海</p><br>
                 <p>我们总是执着远方，以为远方的风景最美，</p>
                 <p>但是最美的风景在脚下。我们渴望星辰大海让蔚蓝的大海盛开出白色的花朵</p>
@@ -87,14 +87,17 @@ export default {
 </script>
 
 <style type="text/css">
+#text2{
+    color:#116796;
+}
 #text1 {
-    color: blue;
+    color:#116796;
 }
 
 .aa {
     text-align: center;
     margin: 50px;
-    color: #a5a5a5;
+    color: #85C1C9;                                /*首页字体 */
     font-family: "楷体";
     font-weight: normal;
     font-weight: bold;

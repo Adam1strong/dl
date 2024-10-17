@@ -39,7 +39,7 @@
 
 <style>
 b {
-    color: red;
+    color: #ffb3a6;
 }
 
 footer {
@@ -57,7 +57,7 @@ footer {
     font-size: 28px;
     font-family: 华文楷体;
     text-align: right;
-    color:#011A90;
+    color:#2c74c9;
 }
 
 i {

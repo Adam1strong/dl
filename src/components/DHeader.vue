@@ -3,10 +3,10 @@
     <el-container class="animate__animated animate__zoomInDown">
         <!-- flex-grow同级元素会按比例分配空间 -->
         <span style="margin: 5px 20px">
-            <font class="ma-shan-zheng-regular">浪漫大连，心动无限</font>
+            <font class="ma-shan-zheng-regular" style="color: #81cac4;">浪漫大连，心动无限</font>
         </span>
 
-        <el-menu mode="horizontal" style="width:1000px;background-color: #ededed;" :default-active="'0'" ellipsis=false>
+        <el-menu mode="horizontal" style="width:870px;background-color: #F3F3E9;" :default-active="'0'" ellipsis=false>
 
             <!-- index.vue -->
             <el-menu-item index="0">
@@ -103,7 +103,7 @@ a {
 .el-menu-item,
 .el-sub-menu__title {
     display: flex;
-    background-color: #ededed;
+  background-color: #F3F3E9;
 }
 </style>
 
