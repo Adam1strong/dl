@@ -24,7 +24,7 @@
         </el-aside>
         <el-main style="margin-top: 100px; margin-left: 200px;">
             <span id="text1">
-                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;《赞跨海大桥》<br>
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;《赞跨海大桥》<br>
                 长虹飞跨海连天，浩渺烟波映眼前。<br>
                 巨柱擎天连两岸，钢绳挽索系云边。<br>
                 车驰如箭穿涛过，舟渡似梭望影迁。<br>
@@ -55,8 +55,9 @@ footer {
 
 #text1 {
     font-size: 28px;
-    font-family: 长城行楷体;
+    font-family: 华文楷体;
     text-align: right;
+    color:#011A90;
 }
 
 i {

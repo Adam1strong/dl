@@ -49,8 +49,9 @@ b{
       }
 #text1{
     font-size: 28px;
-    font-family: 长城行楷体;
+    font-family: 华文楷体;
     text-align: right;
+    color:#011A90;
 }
 
 i {
