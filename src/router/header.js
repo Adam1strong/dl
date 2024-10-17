@@ -4,14 +4,17 @@ import SeaView from '@/views/SeaView.vue'
 import FootballView from '@/views/FootballView.vue'
 import RomanticView from '@/views/RomanticView.vue'
 import FoodView from '@/views/FoodView.vue'
-import NotFound from "../views/404.vue";
+import NotFound from '../views/404.vue';
 
 const routes = [
   {
     path: "/",
     name: "index",
     component: IndexView,
-  },
+  },{
+    path: "/",
+    component:
+  }，
   {
     path: "/sea",
     name: "sea",
