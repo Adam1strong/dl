@@ -1,5 +1,5 @@
 <template>
-    <h1 contenteditable="">跨海大桥</h1><!--标题-->
+    <h1 contenteditable="">世界经济论坛</h1><!--标题-->
     <el-carousel :interval="4000" type="card" height="350px" style="margin: 50px 400px;">
         <el-carousel-item v-for="(item, index) in index_carousel_images" :key="index">
             <img :src="item" alt="Carousel Image" style="width: 100%; height: 100%;" />
@@ -7,41 +7,48 @@
     </el-carousel>
 
 
-    <p><br><br>星海湾跨海大桥，又称大连南部滨海大道跨海大桥，简称星海湾大桥，<br>位于<i>中国辽宁省大连市，是中国首座海上修筑锚碇的地锚式悬索桥</i>，<br>也是中国第一座公路双层钢桁架悬索桥。大桥于2011年开始建设，2015年10月30日开通。<br>星海湾大桥全长6.8公里，其中主桥长820米，净空高度30米，中央正对星海广场中轴线。
-       <br> <i>辽宁省大连市境内链接甘井子与西岗区的跨海大桥位于黄海水域上全长六千米，</i><br>分为上下两层，上层宽度<b>21米</b>，下层<b>17米</b>。是中国建筑的伟大奇迹。
-        <br><br></p><!--文本内容-->
+   <div style="margin: 50px 0px;"> 
+    <p>达沃斯（Davos），一个充满魅力与影响力的地方。</p>
+    <p>位于<i>达沃斯也是全球重要的经济论坛举办地。世界各国的政要、商业领袖、学者等齐聚于此，共同探讨全球经济、政治、社会等重大问题。</i></p>
+    <p><i>这里汇聚着前沿的思想、创新的理念和广泛的合作机遇，成为引领世界发展的重要力量。</i></p>
+    <p>坐落在雄伟阿尔卑斯山脉怀抱中的达沃斯，既是闻名遐迩的滑雪胜地，又是全球瞩目的重要经济论坛举办地。追溯其历史，</p>
+    <p><i>达沃斯，以其壮丽的自然风光、悠久的历史文化和重要的国际地位</i>，成为了一个令人向往和敬仰的地方。</p>
+    <p>它既展现了大自然的壮美与宁静，又承载着人类对未来的思考与探索，是历史与现代、自然与人文的完美结合</p>
+    <p><i>达沃斯以其独特的魅力，既展现了大自然的壮美与宁静，</i>又承载着人类对未来的思考与探索，是一个令人向往和敬仰的地方。</p>
+   </div>
 
     <el-container>
         <el-aside width="760px">
-            <img src="@/assets/images/bridge/bridge-10.jpg" width="760 " height="460">
+            <img src="@/assets/images/WorldEconomicForum/WorldEconomicForum-9.jpg" width="760 " height="460">
         </el-aside>
         <el-main style="margin-top: 100px; margin-left: 200px;">
             <span id="text1">
-                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;《赞跨海大桥》<br>
-                长虹飞跨海连天，浩渺烟波映眼前。<br>
-                巨柱擎天连两岸，钢绳挽索系云边。<br>
-                车驰如箭穿涛过，舟渡似梭望影迁。<br>
-                伟业千秋惊世界，雄姿伟岸立苍澜。
+
             </span><br>
         </el-main>
     </el-container>
-    <footer> <p>&copy; 2024 跨海大桥. 版权所有.</p></footer>
+    <footer>
+        <p>&copy; 2024 跨海大桥. 版权所有.</p>
+    </footer>
 </template>
 
 <style>
-b{
+b {
     color: red;
 }
-       footer {                                      /*2024 跨海大桥. 版权所有样式*/
-        background-color:#193c96;
-        color: white;
-        text-align: center;
-        padding: 20px;
-        position:relative;
-        bottom: 0;
-        width: 100%;
-      }
-#text1{
+
+footer {
+    /*2024 跨海大桥. 版权所有样式*/
+    background-color: #193c96;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#text1 {
     font-size: 28px;
     font-family: 长城行楷体;
     text-align: right;
@@ -107,12 +114,12 @@ export default {
     data() {
         return {
             index_carousel_images: [
-                require("@/assets/images/bridge/bridge-1.jpg"),
-                require("@/assets/images/bridge/bridge-2.jpg"),
-                require("@/assets/images/bridge/bridge-3.jpg"),
-                require("@/assets/images/bridge/bridge-4.jpg"),
-                require("@/assets/images/bridge/bridge-5.jpg"),
-                require("@/assets/images/bridge/bridge-6.jpg"),
+                require("@/assets/images/WorldEconomicForum/WorldEconomicForum-1.jpg"),
+                require("@/assets/images/WorldEconomicForum/WorldEconomicForum-2.jpg"),
+                require("@/assets/images/WorldEconomicForum/WorldEconomicForum-3.jpg"),
+                require("@/assets/images/WorldEconomicForum/WorldEconomicForum-6.jpg"),
+                require("@/assets/images/WorldEconomicForum/WorldEconomicForum-5.jpg"),
+                require("@/assets/images/WorldEconomicForum/WorldEconomicForum-4.jpg"),
             ]
         }
     }

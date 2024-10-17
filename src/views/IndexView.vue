@@ -87,6 +87,7 @@ export default {
 </script>
 
 <style type="text/css">
+
 #text1{
     color: blue;
 }

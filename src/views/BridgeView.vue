@@ -6,10 +6,17 @@
         </el-carousel-item>
     </el-carousel>
 
+    <div style="margin: 50px 0px;">
+        <p>星海湾跨海大桥，又称大连南部滨海大道跨海大桥，简称星海湾大桥，</p>
+    <p>位于<i>中国辽宁省大连市，是中国首座海上修筑锚碇的地锚式悬索桥</i>，</p>
+    <p>也是中国第一座公路双层钢桁架悬索桥。大桥于2011年开始建设，2015年10月30日开通。</p>
+    <p>星海湾大桥全长6.8公里，其中主桥长820米，净空高度30米，中央正对星海广场中轴线。</p>
+    <p><i>辽宁省大连市境内链接甘井子与西岗区的跨海大桥位于黄海水域上全长六千米，</i></p>
+    <p>分为上下两层，上层宽度<b>21米</b>，下层<b>17米</b>。是中国建筑的伟大奇迹。</p>
+    </div>
 
-    <p><br><br>星海湾跨海大桥，又称大连南部滨海大道跨海大桥，简称星海湾大桥，<br>位于<i>中国辽宁省大连市，是中国首座海上修筑锚碇的地锚式悬索桥</i>，<br>也是中国第一座公路双层钢桁架悬索桥。大桥于2011年开始建设，2015年10月30日开通。<br>星海湾大桥全长6.8公里，其中主桥长820米，净空高度30米，中央正对星海广场中轴线。
-       <br> <i>辽宁省大连市境内链接甘井子与西岗区的跨海大桥位于黄海水域上全长六千米，</i><br>分为上下两层，上层宽度<b>21米</b>，下层<b>17米</b>。是中国建筑的伟大奇迹。
-        <br><br></p><!--文本内容-->
+    
+
 
     <el-container>
         <el-aside width="760px">
@@ -25,23 +32,28 @@
             </span><br>
         </el-main>
     </el-container>
-    <footer> <p>&copy; 2024 跨海大桥. 版权所有.</p></footer>
+    <footer>
+        <p>&copy; 2024 跨海大桥. 版权所有.</p>
+    </footer>
 </template>
 
 <style>
-b{
+b {
     color: red;
 }
-       footer {                                      /*2024 跨海大桥. 版权所有样式*/
-        background-color:#193c96;
-        color: white;
-        text-align: center;
-        padding: 20px;
-        position:relative;
-        bottom: 0;
-        width: 100%;
-      }
-#text1{
+
+footer {
+    /*2024 跨海大桥. 版权所有样式*/
+    background-color: #193c96;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#text1 {
     font-size: 28px;
     font-family: 长城行楷体;
     text-align: right;

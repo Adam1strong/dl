@@ -4,6 +4,7 @@ import SeaView from '@/views/SeaView.vue'
 import FootballView from '@/views/FootballView.vue'
 import RomanticView from '@/views/RomanticView.vue'
 import FoodView from '@/views/FoodView.vue'
+import wef from "@/views/WorldEconomicForum.vue"
 import NotFound from '../views/404.vue';
 
 const routes = [
@@ -11,10 +12,10 @@ const routes = [
     path: "/",
     name: "index",
     component: IndexView,
-  },{
-    path: "/",
-    component:
-  }，
+  }, {
+    path: "/wef",
+    component: wef
+  },
   {
     path: "/sea",
     name: "sea",

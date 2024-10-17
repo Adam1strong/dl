@@ -19,7 +19,9 @@
             </el-menu-item>
 
             <!-- bridgepage.vue -->
+
             <el-menu-item index="1">
+
                 <RouterLink to="/bridge">
                     <el-icon>
                         <Sunny />
@@ -37,9 +39,17 @@
                     <span>大连海域</span>
                 </RouterLink>
             </el-menu-item>
+            <el-menu-item index="3">
+            <RouterLink to="/wef">
+                    <el-icon>
+                        <position/>
+                    </el-icon>
+                    <span>达沃斯论坛</span>
+                </RouterLink>
+            </el-menu-item>
 
             <!-- 足球页 -->
-            <el-menu-item index="3">
+            <el-menu-item index="4">
                 <RouterLink to="/football">
                     <el-icon>
                         <football />
@@ -48,7 +58,7 @@
                 </RouterLink>
             </el-menu-item>
 
-            <el-menu-item index="4">
+            <el-menu-item index="5">
                 <RouterLink to="/food">
                     <el-icon>
                         <fork-spoon/>
@@ -57,7 +67,7 @@
                 </RouterLink>
             </el-menu-item>
 
-            <el-menu-item index="5">
+            <el-menu-item index="6">
                 <RouterLink to="/romantic">
                     <el-icon>
                         <magic-stick/>
